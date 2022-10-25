@@ -1,0 +1,24 @@
+{
+  "name": "toprestaurantpage",
+  "version": "1.0.0",
+  "description": "the odin project exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioSimonetti/TOPrestaurantPage.git"
+  },
+  "author": "Antonio Simonetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonioSimonetti/TOPrestaurantPage/issues"
+  },
+  "homepage": "https://github.com/AntonioSimonetti/TOPrestaurantPage#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.10.0"
+  }
+}
