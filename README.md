@@ -7,7 +7,8 @@ LIVE VERSION:
 
 The benefits I got:
 
-- Learned how module and webpack functions works and organizing better my code and resources.
+- Learned how module(import and export) works and organizing better my code in more files(modules).
+- Learned how webpack core works and how to use it.
 
 **Good things to look at:**
 
