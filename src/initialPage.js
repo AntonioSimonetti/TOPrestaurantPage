@@ -1,4 +1,5 @@
 import { controller } from "./controller";
+import restaurantImage from "./assets/restaurantTwo.jpeg";
 
 export function initialPage() {
     const contentDiv = document.querySelector("#content");
@@ -15,7 +16,7 @@ export function initialPage() {
   
     const image = document.createElement("img");
     image.classList.add("top-image");
-    image.src = "../src/assets/restaurant.avif";
+    image.src = restaurantImage;
     image.alt = "spaghetti foto";
     contentDiv.appendChild(image);
   

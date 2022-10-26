@@ -1,4 +1,11 @@
 import { controller } from "./controller";
+import menu1 from "./assets/spaghettiDue.jpg";
+import menu2 from "./assets/salmone.jpg";
+import menu3 from "./assets/steak.jpg";
+import menu4 from "./assets/pollo.jpg";
+import menu5 from "./assets/zuppa.jpg";
+import menu6 from "./assets/dessert.jpg";
+
 
 export function menuPage() {
     
@@ -23,7 +30,7 @@ export function menuPage() {
 
     const image1 = document.createElement("img");
     image1.classList.add("menuOne");
-    image1.src = "../src/assets/spaghettiDue.avif";
+    image1.src = menu1;
     image1.alt = "spaghetti alle vongolefoto";
     block1.appendChild(image1);
   
@@ -39,7 +46,7 @@ export function menuPage() {
 
     const image2 = document.createElement("img");
     image2.classList.add("menuOne");
-    image2.src = "../src/assets/salmone.avif";
+    image2.src = menu2;
     image2.alt = "salmone";
     block2.appendChild(image2);
   
@@ -59,7 +66,7 @@ export function menuPage() {
 
     const image3 = document.createElement("img");
     image3.classList.add("menuOne");
-    image3.src = "../src/assets/steak.avif";
+    image3.src = menu3;
     image3.alt = "steak foto";
     block3.appendChild(image3);
   
@@ -75,7 +82,7 @@ export function menuPage() {
 
     const image4 = document.createElement("img");
     image4.classList.add("menuOne");
-    image4.src = "../src/assets/pollo.avif";
+    image4.src = menu4;
     image4.alt = "pollo foto";
     block4.appendChild(image4);
   
@@ -95,7 +102,7 @@ export function menuPage() {
 
     const image5 = document.createElement("img");
     image5.classList.add("menuOne");
-    image5.src = "../src/assets/zuppa.avif";
+    image5.src = menu5;
     image5.alt = "zuppa foto";
     block5.appendChild(image5);
   
@@ -111,7 +118,7 @@ export function menuPage() {
 
     const image6 = document.createElement("img");
     image6.classList.add("menuOne");
-    image6.src = "../src/assets/dessert.avif";
+    image6.src = menu6;
     image6.alt = "dessert foto";
     block6.appendChild(image6);
   

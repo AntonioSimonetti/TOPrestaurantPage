@@ -1,4 +1,5 @@
 import { controller } from "./controller";
+import mapImg from "./assets/googlemaps.jpg";
 
 export function contact() {
     
@@ -16,7 +17,7 @@ export function contact() {
 
     const map = document.createElement("img");
     map.classList.add("map");
-    map.src = "../src/assets/googlemaps.jpg";
+    map.src = mapImg;
     map.alt = "spaghetti alle vongolefoto";
     contentDiv.appendChild(map);
 
