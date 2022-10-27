@@ -2,7 +2,7 @@
 
 *Simple implementation of restaurant page from The Odin Project curriculum.*
 
-LIVE VERSION: 
+LIVE VERSION: https://antoniosimonetti.github.io/TOPrestaurantPage/
 
 
 The benefits I got:
